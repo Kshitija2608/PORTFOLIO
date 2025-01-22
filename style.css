@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ body{
+      background-color: rgb(0,0,33);
+      color:white;
+        }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    margin:0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover {
+    color: lavender;
+    font-size: 10px;
+
+}
+.left{
+    font-size: 2rem;
+}
+.right{
+    font-size: 12px;
+}
+.firstSection{
+    display:flex;
+    justify-content:space-around ;
+    margin: 110px 0;
+}
+.firstSection > div{
+    width: 30%;
+    
+}
+.leftSection .buttons{
+    padding:50px 0;
+}
+.leftSection{
+    
+    font-size:40px;
+    margin:70px 0;
+
+}
+.leftSection .btn{
+    padding:12px;
+    background: #1e2167 ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightSection img{
+    width:80%;
+   
+}
+.purple{
+    color:blueviolet;
+}
+.text-gray{
+    color:gray;
+}
+#element{
+    color:blueviolet;
+}
+.secondSection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+main hr{
+    border:0;
+    background:#9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondSection h1{
+    font-size:16px;
+}
+.secondSection .box{
+    background:white;
+    width: 76vw;
+    height:2px;
+    margin: 56px 0;
+    display:flex;
+}
+.secondSection .vertical{
+    height:93px;
+    width: 1px;
+    background-color: white;
+    margin:0  160px;
+}
+.image-top{
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+position:relative;
+top:75px;
+width:150px;
+}
+.vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 12px;
+}
+.ThirdSection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+.ThirdSection h1{
+    font-size:16px;
+}
+.ThirdSection .box{
+    background:white;
+    width: 76vw;
+    height:2px;
+    margin: 56px 0;
+    display:flex;
+}
+.ThirdSection .vertical{
+    height:93px;
+    width: 1px;
+    background-color: white;
+    margin:0  100px;
+}
+.image-top1 {
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+/* .vertical-title{
+position:relative;
+top:75px;
+width:150px;
+}
+.vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 12px;
+} */
+
+.FourthSection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+.FourthSection h1{
+    font-size:16px;
+}
+.FourthSection .box{
+    background:white;
+    width: 76vw;
+    height:2px;
+    margin: 56px 0;
+    display:flex;
+}
+.FourthSection .vertical{
+    height:93px;
+    width: 1px;
+    background-color: white;
+    margin:0  160px;
+}
+.image-top2 {
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+footer{
+    background-color:#0e0e1a;
+    
+}
+.footer{
+    display:flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style:none ;
+}
+.footer > div{
+    width:223px;
+}
+footer .footer-rights{
+    text-align:center;
+    color:gray;
+    padding: 12px 0;
+
+}
